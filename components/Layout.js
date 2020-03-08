@@ -29,6 +29,11 @@ const Layout = props => (
         }
         .content a {
           color: #EB8A00;
+          letter-spacing: 1px;
+        }
+        .content a:hover {
+          color: #EB8A00;
+          text-decoration: underline #fff;
         }
       `}
     </style>

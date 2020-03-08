@@ -10,7 +10,7 @@ const logoStyle = {
   height: '150px'
 }
 const navStyle = {
-  // borderLeft: '1px solid gray',
+  // border: '1px solid gray',
 }
 const headerStyle = {
   display: 'flex'
