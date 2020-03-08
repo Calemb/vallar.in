@@ -24,6 +24,12 @@ const Layout = props => (
           color: #fff;
           padding: 1vw;
         }
+        .content h1 {
+          color: #EB8A00;
+        }
+        .content a {
+          color: #EB8A00;
+        }
       `}
     </style>
   </div>

@@ -7,10 +7,10 @@ const logoStyle = {
   // border: '1px solid red',
   padding: '3px',
   marginLeft: '10px',
-  height: '250px'
+  height: '150px'
 }
 const navStyle = {
-  // border: '1px solid red'
+  // borderLeft: '1px solid gray',
 }
 const headerStyle = {
   display: 'flex'
@@ -28,6 +28,9 @@ const Header = () => (
       </Link>
       <Link href='/contact'>
         <a style={linkStyle}>Contact</a>
+      </Link>
+      <Link href='/showcase'>
+        <a style={linkStyle}>showcase</a>
       </Link>
     </div>
 
