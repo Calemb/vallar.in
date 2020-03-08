@@ -1,15 +1,16 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const linkStyle = {
-  marginRight: 15
+  // marginRight: 15
 }
 const logoStyle = {
-  border: '1px solid red',
+  // border: '1px solid red',
   padding: '3px',
-  height: '250px'
+  marginLeft: '10px',
+  height: '150px'
 }
 const navStyle = {
-  border: '1px solid red'
+  // border: '1px solid red'
 }
 const headerStyle = {
   display: 'flex'
@@ -34,16 +35,23 @@ const Header = () => (
       .nav{
         flex-grow: 1;
         display: flex;
+        align-items: center;
+        // border: 1px solid gray;
+        justify-content: space-around;
       }
       .nav a{
         color: #fff;
-        display: block;
+        vertical-align:middle;
+        // display: block;
         border: 1px solid gray;
-        letter-spacing: 0.5em;
+        padding: 10px 20px;
+        text-decoration: none;
+        // letter-spacing: 0.5em;
         text-transform: uppercase;
       }     
-    `}</style>
+    `}
+    </style>
   </div>
-);
+)
 
-export default Header;
+export default Header

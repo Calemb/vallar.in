@@ -1,9 +1,9 @@
-import Header from './Header';
+import Header from './Header'
 
 const layoutStyle = {
   height: '100vh',
-  width: '100vw',
-};
+  width: '100vw'
+}
 
 const Layout = props => (
   <div style={layoutStyle}>
@@ -15,8 +15,9 @@ const Layout = props => (
           padding: 0px;
           background-color: #000;
         }
-      `}</style>
+      `}
+    </style>
   </div>
-);
+)
 
-export default Layout;
+export default Layout
