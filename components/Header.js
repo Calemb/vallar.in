@@ -2,9 +2,11 @@ import Link from 'next/link';
 
 const linkStyle = {
   marginRight: 15
-};
+}
 const logoStyle = {
-  border: '1px solid red'
+  border: '1px solid red',
+  padding: '3px',
+  height: '250px'
 }
 const navStyle = {
   border: '1px solid red'
@@ -15,18 +17,32 @@ const headerStyle = {
 
 const Header = () => (
   <div style={headerStyle}>
-    <img class="logo" src="/logo.png" alt="my image" style={logoStyle} />
-    <div class="nav" style={navStyle}>
-      <Link href="/">
-        <a style={linkStyle}>Home</a>
+    <img className='logo' src='/logo.png' alt='my image' style={logoStyle} />
+    <div className='nav' style={navStyle}>
+      <Link href='/about'>
+        <a style={linkStyle}>ABOUT</a>
       </Link>
-      <Link href="/about">
-        <a style={linkStyle}>About</a>
+      <Link href='/details'>
+        <a style={linkStyle}>Details</a>
+      </Link>
+      <Link href='/contact'>
+        <a style={linkStyle}>Contact</a>
       </Link>
     </div>
 
     <style jsx>{`
-    `} </style>
+      .nav{
+        flex-grow: 1;
+        display: flex;
+      }
+      .nav a{
+        color: #fff;
+        display: block;
+        border: 1px solid gray;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+      }     
+    `}</style>
   </div>
 );
 

@@ -1,9 +1,8 @@
 import Header from './Header';
 
 const layoutStyle = {
-  height: '100%',
+  height: '100vh',
   width: '100vw',
-  border: '1px solid #DDD',
 };
 
 const Layout = props => (
