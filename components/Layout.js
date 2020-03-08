@@ -8,12 +8,21 @@ const layoutStyle = {
 const Layout = props => (
   <div style={layoutStyle}>
     <Header />
-    {props.children}
+    <div className='content'>
+      {props.children}
+    </div>
     <style global jsx>{`
         body {
           margin: 0px;
           padding: 0px;
           background-color: #000;
+        }
+        .content {
+          width: 60vw;
+          margin-left: 25vw;
+          border: 1px solid gray;
+          color: #fff;
+          padding: 1vw;
         }
       `}
     </style>

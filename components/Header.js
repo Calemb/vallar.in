@@ -7,7 +7,7 @@ const logoStyle = {
   // border: '1px solid red',
   padding: '3px',
   marginLeft: '10px',
-  height: '150px'
+  height: '250px'
 }
 const navStyle = {
   // border: '1px solid red'
@@ -48,6 +48,10 @@ const Header = () => (
         text-decoration: none;
         // letter-spacing: 0.5em;
         text-transform: uppercase;
+      }
+      .nav a:hover{
+        color: #000000;
+        background-color: #EB8A00;
       }     
     `}
     </style>

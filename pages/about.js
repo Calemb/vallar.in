@@ -4,7 +4,8 @@ export default function About () {
   return (
     <div>
       <Layout>
-        <p>This is the about page</p>
+        <h1>About</h1>
+        <p>Vallar</p>
       </Layout>
     </div>
   )
