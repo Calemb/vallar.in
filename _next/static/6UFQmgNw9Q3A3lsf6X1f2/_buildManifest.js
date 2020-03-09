@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = (function(a){return {"/":[a],"/about":[a],"/contact":[a],"/details":[a],"/index":[a],"/showcase":[a]}}("static\u002Fchunks\u002Ff35aa75b2859344668057c764ea09abbf9dc6bbf.70e01dc1c35f720c6810.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
