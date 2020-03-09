@@ -7,34 +7,43 @@ const logoStyle = {
   // border: '1px solid red',
   padding: '3px',
   marginLeft: '10px',
-  height: '150px'
+  height: '10vw',
+  minHeight: '70px'
 }
 const navStyle = {
-  // border: '1px solid gray',
 }
 const headerStyle = {
-  display: 'flex'
+  // border: '1px solid gray',
+  display: 'flex',
+  textAlign: 'center'
 }
 
 const Header = () => (
   <div style={headerStyle}>
-    <img className='logo' src='/logo.png' alt='my image' style={logoStyle} />
-    <div className='nav' style={navStyle}>
+    {/* <div className='nav' style={navStyle}>
       <Link href='/about'>
         <a style={linkStyle}>ABOUT</a>
       </Link>
       <Link href='/details'>
         <a style={linkStyle}>Details</a>
       </Link>
+    </div> */}
+    {/* <img className='logo' src='/logo.png' alt='my image' style={logoStyle} /> */}
+    {/* <div className='nav'>
       <Link href='/contact'>
         <a style={linkStyle}>Contact</a>
       </Link>
       <Link href='/showcase'>
         <a style={linkStyle}>showcase</a>
       </Link>
-    </div>
+    </div> */}
 
     <style jsx>{`
+    img {
+      border: 1px solid red;
+      margin: 0px auto;
+      display: block;
+    }
       .nav{
         flex-grow: 1;
         display: flex;

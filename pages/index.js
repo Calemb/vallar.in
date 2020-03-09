@@ -6,7 +6,7 @@ export default function Index () {
   return (
     <div>
       <Layout>
-        <p>Hello Next.js</p>
+        {/* <p>Hello Next.js</p> */}
       </Layout>
     </div>
   );
